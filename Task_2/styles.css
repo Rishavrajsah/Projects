@@ -785,14 +785,15 @@ footer span a:hover {
     padding: 20px;
   }
   
-  .projects .box img {
-    max-width: 100%;
+  .projects .box video {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
     transition: transform 0.3s ease;
   }
   
-  .projects .card:hover .box img {
+  .projects .card:hover .box video {
     transform: scale(1.05);
   }
   
